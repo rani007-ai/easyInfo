@@ -2,7 +2,7 @@
   "name": "easyInfo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sudeshgoyat20.github.io/easyInfo",
+  "homepage": "https://sudeshgoyat2.github.io/easyInfo",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
