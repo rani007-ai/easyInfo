@@ -11,8 +11,9 @@ import Contact from './pages/Contact';
 import Footer from './components/Footer';
 
 function App() {
+  const basename = process.env.PUBLIC_URL ? new URL(process.env.PUBLIC_URL).pathname : '/';
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename={basename}>
       <div className="App d-flex flex-column min-vh-100">
         <Navigation />
         <div className="container flex-grow-1 py-4">
