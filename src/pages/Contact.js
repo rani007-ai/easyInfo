@@ -53,6 +53,8 @@ const Contact = () => {
 
   return (
     <div>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1054040651597650"
+     crossorigin="anonymous"></script>
       <h1 className="mb-4">Contact Us</h1>
       
       <Card>
