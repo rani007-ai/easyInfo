@@ -181,7 +181,8 @@ const Home = () => {
   return (
     <div>
       {/* Search Bar */}
-       
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1054040651597650"
+     crossorigin="anonymous"></script>
       
       {/* Visa Type Selection */}
       <Card className="mb-4">
