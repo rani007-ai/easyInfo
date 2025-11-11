@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { Container, Row, Col, Card, Nav, Tab, ListGroup, Form, Button, Alert, InputGroup } from 'react-bootstrap';
  
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
   const [searchResults, setSearchResults] = useState([]);
   const [visaType, setVisaType] = useState('student');
   const [isSearching, setIsSearching] = useState(false);
+  const location = useLocation();
 
   // Germany visa document information
   const visaDocuments = {
@@ -130,6 +132,15 @@ const Home = () => {
     }
   };
 
+  // Set Opportunity Card when routed via /opportunity
+  useEffect(() => {
+    const path = location.pathname.toLowerCase();
+    if (path.includes('opportunity')) {
+      setVisaType('opportunity');
+      setActiveCategory(Object.keys(visaDocuments['opportunity'])[0]);
+    }
+  }, [location.pathname]);
+
   // Search function
   const handleSearch = (e) => {
     e.preventDefault();
@@ -181,9 +192,7 @@ const Home = () => {
   return (
     <div>
       {/* Search Bar */}
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1054040651597650"
-     crossorigin="anonymous"></script>
-     
+    
       {/* Visa Type Selection */}
       <Card className="mb-4">
         <Card.Header as="h5">Select Visa Type</Card.Header>

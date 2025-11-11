@@ -6,6 +6,7 @@ import './App.css';
 // Components
 import Navigation from './components/Navigation';
 import Home from './pages/Home';
+import Opportunity from './pages/Opportunity';
 import Chat from './pages/Chat';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
@@ -19,6 +20,7 @@ function App() {
         <div className="container flex-grow-1 py-4">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/opportunity" element={<Opportunity />} />
             <Route path="/chat" element={<Chat />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<Home />} />
