@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import Opportunity from './pages/Opportunity';
 import Chat from './pages/Chat';
 import Contact from './pages/Contact';
+import AuPair from './pages/AuPair';
 import Footer from './components/Footer';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route path="/opportunity" element={<Opportunity />} />
             <Route path="/chat" element={<Chat />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/au-pair" element={<AuPair />} />
             <Route path="*" element={<Home />} />
           </Routes>
         </div>
