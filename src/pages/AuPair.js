@@ -29,9 +29,9 @@ const AuPair = () => {
             <Card.Body>
               <p className="mb-2">Websites:</p>
               <ul>
-                <li><a href="https://www.aupair-world.net" target="_blank" rel="noopener noreferrer">aupair-world.net</a></li>
+                <li><a href="https://www.aupairworld.com/en" target="_blank" rel="noopener noreferrer">aupairworld.com</a></li>
                 <li><a href="https://www.aupair.com" target="_blank" rel="noopener noreferrer">aupair.com</a></li>
-                <li><a href="https://www.greataupair.com" target="_blank" rel="noopener noreferrer">great-aupair.com</a></li>
+                <li><a href="https://www.findaupair.com" target="_blank" rel="noopener noreferrer">findaupair.com/</a></li>
                 <li><a href="https://en.familienservice.de" target="_blank" rel="noopener noreferrer">PME Family Service Agent </a></li>
                
                 
