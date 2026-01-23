@@ -12,7 +12,8 @@ const Navigation = () => {
           <Nav className="ms-auto">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/opportunity">Opportunity Card</Nav.Link>
-            <Nav.Link as={Link} to="/au-pair">AU Pair Visa</Nav.Link>
+            <Nav.Link as={Link} to="/au-pair">Au Pair</Nav.Link>
+            <Nav.Link as={Link} to="/ausbildung">Ausbildung</Nav.Link>
 
             <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
           </Nav>

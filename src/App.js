@@ -10,6 +10,7 @@ import Opportunity from './pages/Opportunity';
 import Chat from './pages/Chat';
 import Contact from './pages/Contact';
 import AuPair from './pages/AuPair';
+import Ausbildung from './pages/Ausbildung';
 import Footer from './components/Footer';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
             <Route path="/chat" element={<Chat />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/au-pair" element={<AuPair />} />
+            <Route path="/ausbildung" element={<Ausbildung />} />
             <Route path="*" element={<Home />} />
           </Routes>
         </div>
