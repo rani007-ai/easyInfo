@@ -6,7 +6,7 @@ const Ausbildung = () => {
     <Container>
       <Row>
         <Col>
-          <h1 className="mb-3">Ausbildung Visa – Germany</h1>
+          <h1 className="mb-3">Ausbuildung Visa – Germany</h1>
           <p className="text-muted mb-4">Ausbildung is Germany's "dual vocational training" system, combining practical, on-the-job learning at a company with theoretical study at a vocational school (Berufsschule) to train skilled professionals. Participants, called Azubis, earn a salary while learning, typically over 2-3.5 years, and finish with a final exam, providing a direct path to employment in fields like IT, healthcare, engineering, and more, unlike traditional university studies. </p>
 
           <Card className="mb-4">

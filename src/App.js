@@ -11,6 +11,9 @@ import Chat from './pages/Chat';
 import Contact from './pages/Contact';
 import AuPair from './pages/AuPair';
 import Ausbildung from './pages/Ausbildung';
+import Volunteer from './pages/Volunteer';
+import Study from './pages/Study';
+import MaltaWork from './pages/MaltaWork';
 import Footer from './components/Footer';
 
 function App() {
@@ -26,7 +29,10 @@ function App() {
             <Route path="/chat" element={<Chat />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/au-pair" element={<AuPair />} />
-            <Route path="/ausbildung" element={<Ausbildung />} />
+            <Route path="/ausbuildung" element={<Ausbildung />} />
+            <Route path="/volunteer" element={<Volunteer />} />
+            <Route path="/study" element={<Study />} />
+            <Route path="/malta-work" element={<MaltaWork />} />
             <Route path="*" element={<Home />} />
           </Routes>
         </div>
