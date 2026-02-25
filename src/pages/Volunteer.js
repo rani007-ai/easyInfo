@@ -49,6 +49,46 @@ const Volunteer = () => {
               <ListGroup variant="flush">
                 <ListGroup.Item>
                   Bundesfreiwilligendienst (incl. weltwärts): Contract signed by you, the German Federal Office of Family Affairs and Civil Society Functions (Bundesamt für Familie und zivilgesellschaftliche Aufgaben), the assignment location, their central office, and if applicable the provider (Träger)
+             <ListGroup.Item>  Recommended Websites to Find a BFD Contract</ListGroup.Item> 
+
+     <ListGroup horizontal>
+      <ListGroup.Item>Freunde Waldorf</ListGroup.Item>
+      <ListGroup.Item>One of the most popular for internationals; very helpful with visa docs.</ListGroup.Item>
+                        <ListGroup.Item><a href="https://www.google.com/search?q=https://www.freunde-waldorf.de/en/for-internationals/" > freunde-waldorf.de </a></ListGroup.Item>
+            
+     </ListGroup>
+      
+      <ListGroup horizontal>
+      <ListGroup.Item>IJGD     </ListGroup.Item>
+      <ListGroup.Item> Offers a wide range of social, cultural, and ecological projects.</ListGroup.Item>
+                        <ListGroup.Item><a href="https://www.ijgd.de/en/national/incoming" > ijgd.de/en/national/incoming</a></ListGroup.Item>
+            
+     </ListGroup>
+      <ListGroup horizontal>
+      <ListGroup.Item>Weltwärts     </ListGroup.Item>
+      <ListGroup.Item> A government-funded exchange specifically for "South-North" volunteers .</ListGroup.Item>
+                        <ListGroup.Item><a href="https://www.weltwaerts.de/en/" >  weltwaerts.de</a></ListGroup.Item>
+            
+     </ListGroup>
+
+       <ListGroup horizontal>
+      <ListGroup.Item>ASB     </ListGroup.Item>
+      <ListGroup.Item>  Focuses on rescue services, elderly care, and social welfare.</ListGroup.Item>
+                        <ListGroup.Item><a href="https://www.asb.de/en/relief-and-welfare/social-services" >  asb.de</a></ListGroup.Item>
+            
+     </ListGroup>
+
+      <ListGroup horizontal>
+      <ListGroup.Item>Official BFD Database     </ListGroup.Item>
+      <ListGroup.Item>  The official federal portal (mostly in German, requires direct outreach).</ListGroup.Item>
+                        <ListGroup.Item><a href="https://www.bundesfreiwilligendienst.de/" > bundesfreiwilligendienst.de</a></ListGroup.Item>
+            
+     </ListGroup>
+
+
+
+
+
                 </ListGroup.Item>
                 <ListGroup.Item>
                   Youth Voluntary Services (FSJ/FÖJ): Contract signed by you, the provider organizing the service, and if applicable the assignment location
